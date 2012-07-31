@@ -30,10 +30,6 @@ else
 fi
 
 
-# 139215211
-# 80000000
-# find . -name "*.[mc][pu][3e]" -printf "%s  %h %f\n"
-#dir=(`ls -Al *.[mc][pu][3e] | sed 's/  */\ /g'`)
 ## stores backwards
 #dir=(`find . -name "*.[mc][pu][3e]" -printf "%s %h %f\n" | sort`)
 dir=(`find ${1} -name "*.[mc][pu][3e]" -printf "%h %f %s\n" | sort`)
