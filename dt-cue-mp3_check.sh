@@ -21,6 +21,7 @@ if [[ "${1}" == "help" ]]; then
   echo "  note: base-folder must not contain any (sub-)folders and/or files with spaces!"
   echo " there is only one parameter to change, big_file_size, this is the byte size of the mp3 to check"
   echo " cue<->mp3 name matching converts all '_' to '-' and checks if the given *.cue is named *.mp3.cue"
+  exit
 fi
 
 if [ -z "${1}" ]; then
