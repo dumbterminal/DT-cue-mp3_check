@@ -1,0 +1,12 @@
+dt-cue-mp3_check.sh
+
+2012-07-30_212700
+./dt-cue-mp3_check.sh <help | base-folder> <all>
+confirms an existing cue file exists for an mp3 with the same name among current specified folder and all sub-folders; prints a list of filders and/or files of where cue sheets are missing
+
+Dumb Terminal
+ Smaller than Life Projects
+Main Page: http://dt.tehspork.com
+Git Repo: https://github.com/dumbterminal/
+By: MikereDD & veekahn
+email: dumbterminal -at- tehspork.com
